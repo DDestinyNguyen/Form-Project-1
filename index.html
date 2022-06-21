@@ -15,7 +15,7 @@
         <script src="https://cdn.jsdelivr.net/remarkable/1.7.1/remarkable.min.js"></script>
         <div id="form">
             <div id="header">
-                <h1>Hãy cho chúng tôi biết thông tin của bạn</h1>
+                <h1>Contact Us</h1>
                 <p class="require">Required</p>
             </div>
             <!-- End div id header -->
@@ -26,30 +26,38 @@
             </div>
             <!-- End div one -->
             <div class="input" id="two">
-                <p>Email: <span class="require">*</span></p>
-                <input type="text" placeholder="haideptrai@gmail.com" id="email" required>
+                <p>Contact Number <span class="require">*</span></p>
+                <input type="text" placeholder="xxxxxxxx" id="email" required>
             </div>
             <!-- End div two -->
             <div class="input" id="three">
+                <p>Email: <span class="require">*</span></p>
+                <input type="text" placeholder="haideptrai@gmail.com" id="contact-number" required>
+            </div>
+            <!-- End div three -->
+            <div class="input" id="four">
                 <p>Bạn biết chúng tui thông qua đâu? <span class="require">*</span></p>
                 <form id="reason">
-                    <input type="radio" name="reason" value="Query" id="query" required> <label for="Query">Facebook</label><br>
-                    <input type="radio" name="reason" value="Feedback" id="feedback" required> <label for="Feedback">Instargram</label><br>
-                    <input type="radio" name="reason" value="Complaint" id="complaint" required> <label for="Complaint">Twitter</label><br>
+                    <input type="radio" name="reason" value="Facebook" id="facebook" required> <label for="Facebook">Facebook</label><br>
+                    <input type="radio" name="reason" value="Instargram" id="instartgram" required> <label for="Feedback">Instargram</label><br>
+                    <input type="radio" name="reason" value="Twitter" id="twitter" required> <label for="Twitter">Twitter</label><br>
                     <input type="radio" name="reason" value="Other" id="other" required> <label for="Other">Other</label><br>
                 </form>
             </div>
-            <!-- End div threee -->
-            <div class="input" id="four">
+            <!-- End div four-->
+            <div class="input" id="five">
                 <p id="commentp">Comment: <span class="require">*</span></p>
                 <textarea id="comment" maxlength="555" required></textarea>
                 <span id="counter">0/555</span>
             </div>
-            <!-- End div four -->
+            <!-- End div five -->
             <div id="button">
                 <button onclick="submit();">Submit</button>
             </div>
             <!-- End div button -->
+            
+            <!-- End div upload file -->
+            
         </div>
         <p id="result"></p>
         <!-- tạo đường link kết nối file Javascripts -->
